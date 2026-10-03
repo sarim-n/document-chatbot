@@ -1,0 +1,277 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 8 0 R 10 0 R 12 0 R 14 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 16 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 5 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+/Parent 2 0 R
+/Annots [ 22 0 R ]
+>>
+endobj
+5 0 obj
+<<
+/Length 1396
+>>
+stream
+BT /F1 16 Tf 50 740 Td (Chapter 1: Introduction to Retrieval-Augmented Generation) Tj ET
+50 725 m 550 725 l S
+BT /F2 11 Tf 50 700 Td (1.1 Executive Overview) Tj ET
+BT /F2 11 Tf 50 684 Td (Retrieval-Augmented Generation \(RAG\) is a state-of-the-art AI architectural pattern that) Tj ET
+BT /F2 11 Tf 50 668 Td (combines the parametric memory of Large Language Models \(LLMs\) with non-parametric) Tj ET
+BT /F2 11 Tf 50 652 Td (vector databases. By dynamically retrieving external knowledge relevant to a user's prompt,) Tj ET
+BT /F2 11 Tf 50 636 Td (RAG mitigates hallucinations and enables real-time access to private enterprise documents.) Tj ET
+BT /F2 11 Tf 50 608 Td (1.2 Motivation and Business Value) Tj ET
+BT /F2 11 Tf 50 592 Td (Standard LLMs suffer from knowledge cutoff dates and frequently hallucinate domain-specific) Tj ET
+BT /F2 11 Tf 50 576 Td (facts. RAG solves this by providing grounding context alongside user queries, ensuring) Tj ET
+BT /F2 11 Tf 50 560 Td (that answers are factual, auditable, and backed by verifiable citations.) Tj ET
+BT /F2 11 Tf 50 532 Td (1.3 Key Architectural Pillars) Tj ET
+BT /F2 11 Tf 50 516 Td (A robust RAG system consists of three primary modules: the Document Ingestion Pipeline,) Tj ET
+BT /F2 11 Tf 50 500 Td (the Semantic Vector Store, and the Grounded Synthesis Engine.) Tj ET
+BT /F2 9 Tf 270 30 Td (Page 1 of 5 - RAG Architecture Guide) Tj ET
+endstream
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 9 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Length 1435
+>>
+stream
+BT /F1 16 Tf 50 740 Td (Chapter 2: Chunking Strategies and Dense Embeddings) Tj ET
+50 725 m 550 725 l S
+BT /F2 11 Tf 50 700 Td (2.1 Document Preprocessing and Normalization) Tj ET
+BT /F2 11 Tf 50 684 Td (Raw documents such as PDFs often contain complex layouts, headers, footers, and hyphenated) Tj ET
+BT /F2 11 Tf 50 668 Td (line breaks. Normalizing whitespace and segmenting documents into logical sections) Tj ET
+BT /F2 11 Tf 50 652 Td (is vital before chunking.) Tj ET
+BT /F2 11 Tf 50 624 Td (2.2 Semantic Chunking vs Sliding Window) Tj ET
+BT /F2 11 Tf 50 608 Td (Fixed sliding window chunking uses a defined character or token size \(e.g. 500-800 characters\)) Tj ET
+BT /F2 11 Tf 50 592 Td (with an overlap \(e.g. 100 characters\) to preserve contextual boundaries across split points.) Tj ET
+BT /F2 11 Tf 50 576 Td (Semantic chunking respects paragraph and section headings to maintain coherent ideas.) Tj ET
+BT /F2 11 Tf 50 548 Td (2.3 Sentence Transformers and Dense Vectors) Tj ET
+BT /F2 11 Tf 50 532 Td (Sentence Transformers map variable-length textual chunks into dense vector representations) Tj ET
+BT /F2 11 Tf 50 516 Td (\(typically 384 or 768 dimensions\). The all-MiniLM-L6-v2 model offers a superior balance of) Tj ET
+BT /F2 11 Tf 50 500 Td (computational efficiency, low latency, and high retrieval accuracy on semantic similarity benchmarks.) Tj ET
+BT /F2 9 Tf 270 30 Td (Page 1 of 5 - RAG Architecture Guide) Tj ET
+endstream
+endobj
+10 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 11 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 1239
+>>
+stream
+BT /F1 16 Tf 50 740 Td (Chapter 3: Vector Databases and Indexing Mechanisms) Tj ET
+50 725 m 550 725 l S
+BT /F2 11 Tf 50 700 Td (3.1 Role of Vector Databases) Tj ET
+BT /F2 11 Tf 50 684 Td (Vector databases provide specialized storage and approximate nearest neighbor \(ANN\) search.) Tj ET
+BT /F2 11 Tf 50 668 Td (Popular options include ChromaDB, FAISS, and Qdrant. ChromaDB provides embedded persistence) Tj ET
+BT /F2 11 Tf 50 652 Td (with native metadata filtering.) Tj ET
+BT /F2 11 Tf 50 624 Td (3.2 Hierarchical Navigable Small World \(HNSW\)) Tj ET
+BT /F2 11 Tf 50 608 Td (HNSW graph indexing allows sub-linear search latency across millions of high-dimensional) Tj ET
+BT /F2 11 Tf 50 592 Td (vectors by organizing nodes into multi-layer proximity graphs.) Tj ET
+BT /F2 11 Tf 50 564 Td (3.3 Cosine Similarity vs Euclidean Distance) Tj ET
+BT /F2 11 Tf 50 548 Td (Normalized embeddings utilize cosine similarity, computed as the dot product between the) Tj ET
+BT /F2 11 Tf 50 532 Td (query vector and chunk vector. A score of 1.0 indicates identical directional semantics,) Tj ET
+BT /F2 11 Tf 50 516 Td (while scores above 0.70 indicate strong topical alignment.) Tj ET
+BT /F2 9 Tf 270 30 Td (Page 1 of 5 - RAG Architecture Guide) Tj ET
+endstream
+endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 13 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 1246
+>>
+stream
+BT /F1 16 Tf 50 740 Td (Chapter 4: Interactive Document Navigation & Citations) Tj ET
+50 725 m 550 725 l S
+BT /F2 11 Tf 50 700 Td (4.1 The Need for Grounded Navigation) Tj ET
+BT /F2 11 Tf 50 684 Td (Providing an answer without source verification degrades user trust. Modern AI assistants) Tj ET
+BT /F2 11 Tf 50 668 Td (must provide deep navigation links that instantly transport users to the exact document,) Tj ET
+BT /F2 11 Tf 50 652 Td (chapter, section, and page containing the supporting evidence.) Tj ET
+BT /F2 11 Tf 50 624 Td (4.2 Dynamic Chunk Highlighting) Tj ET
+BT /F2 11 Tf 50 608 Td (When a user clicks a citation badge \(e.g. Page 4, Section 4.1\), the document viewer should) Tj ET
+BT /F2 11 Tf 50 592 Td (auto-scroll to the target page and highlight the matching chunk with an accent glow.) Tj ET
+BT /F2 11 Tf 50 576 Td (This visual feedback loop cuts verification time by over 80%.) Tj ET
+BT /F2 11 Tf 50 548 Td (4.3 Outline and Chapter Browsing) Tj ET
+BT /F2 11 Tf 50 532 Td (Extracting the document's Table of Contents allows users to browse hierarchical chapters) Tj ET
+BT /F2 11 Tf 50 516 Td (and scope their questions to specific sections of interest.) Tj ET
+BT /F2 9 Tf 270 30 Td (Page 1 of 5 - RAG Architecture Guide) Tj ET
+endstream
+endobj
+14 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Contents 15 0 R
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 1142
+>>
+stream
+BT /F1 16 Tf 50 740 Td (Chapter 5: Evaluation and Future Directions) Tj ET
+50 725 m 550 725 l S
+BT /F2 11 Tf 50 700 Td (5.1 RAG Triad Metrics) Tj ET
+BT /F2 11 Tf 50 684 Td (Modern RAG evaluation frameworks measure three core axes: Context Relevance \(how well the) Tj ET
+BT /F2 11 Tf 50 668 Td (retrieved chunks match the prompt\), Groundedness \(faithfulness of the answer to context\),) Tj ET
+BT /F2 11 Tf 50 652 Td (and Answer Relevance \(how directly the synthesis satisfies the user's question\).) Tj ET
+BT /F2 11 Tf 50 624 Td (5.2 Conversational Memory and Contextual Query Rewriting) Tj ET
+BT /F2 11 Tf 50 608 Td (Multi-turn dialogues require tracking conversation state. Follow-up queries like 'explain its) Tj ET
+BT /F2 11 Tf 50 592 Td (second limitation' are contextualized with conversation history before vector lookup.) Tj ET
+BT /F2 11 Tf 50 564 Td (5.3 Conclusion) Tj ET
+BT /F2 11 Tf 50 548 Td (RAG with interactive navigation represents the gold standard for reliable, auditable,) Tj ET
+BT /F2 11 Tf 50 532 Td (and user-centric AI document intelligence.) Tj ET
+BT /F2 9 Tf 270 30 Td (Page 1 of 5 - RAG Architecture Guide) Tj ET
+endstream
+endobj
+16 0 obj
+<<
+/First 17 0 R
+/Count 5
+/Last 21 0 R
+>>
+endobj
+17 0 obj
+<<
+/Title (Chapter 1\072 Introduction to Retrieval\055Augmented Generation)
+/Dest [ 4 0 R /Fit ]
+/F 0
+/C [ 0.0 0.0 0.0 ]
+/Parent 16 0 R
+/Next 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Title (Chapter 2\072 Chunking Strategies and Dense Embeddings)
+/Dest [ 8 0 R /Fit ]
+/F 0
+/C [ 0.0 0.0 0.0 ]
+/Prev 17 0 R
+/Parent 16 0 R
+/Next 19 0 R
+>>
+endobj
+19 0 obj
+<<
+/Title (Chapter 3\072 Vector Databases and Indexing Mechanisms)
+/Dest [ 10 0 R /Fit ]
+/F 0
+/C [ 0.0 0.0 0.0 ]
+/Prev 18 0 R
+/Parent 16 0 R
+/Next 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Title (Chapter 4\072 Interactive Document Navigation \046 Citations)
+/Dest [ 12 0 R /Fit ]
+/F 0
+/C [ 0.0 0.0 0.0 ]
+/Prev 19 0 R
+/Parent 16 0 R
+/Next 21 0 R
+>>
+endobj
+21 0 obj
+<<
+/Title (Chapter 5\072 Evaluation and Future Directions)
+/Dest [ 14 0 R /Fit ]
+/F 0
+/C [ 0.0 0.0 0.0 ]
+/Prev 20 0 R
+/Parent 16 0 R
+>>
+endobj
+22 0 obj
+<<
+/Subtype /Highlight
+/Rect [ 50 700 350 725 ]
+/QuadPoints 
